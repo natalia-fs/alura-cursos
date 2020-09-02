@@ -9,6 +9,9 @@ class CardNota extends Component {
           <h3 className="card-nota_titulo">{this.props.titulo}</h3>
         </header>
         <p className="card-nota_texto">{this.props.texto}</p>
+        <p className="card-nota_rodape">
+          {this.props.rodape.indice}/{this.props.rodape.total}
+        </p>
       </section>
     );
   }
