@@ -29,6 +29,12 @@
   .card-nota_rodape{
     font-size: 0.7rem;
     align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     color: rgba(0,0,0,.7);
-    padding-top: .6rem;
+    background: lightgray;
+    border-radius: 50%;
+    min-width: 28px;
+    min-height: 28px;
   }
