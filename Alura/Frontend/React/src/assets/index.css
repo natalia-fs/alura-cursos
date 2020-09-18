@@ -430,10 +430,6 @@ fieldset {
   padding: 0;
 }
 
-input{
-  min-height: 2.2rem;
-}
-
 textarea {
   resize: vertical;
 }
