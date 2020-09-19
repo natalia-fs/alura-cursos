@@ -15,11 +15,12 @@
     font-weight: 100;
   }
 
-  input,textarea.form-cadastro_input{
+  input,select,textarea.form-cadastro_input{
     padding: .6rem .8rem .6rem .8rem;
+    min-height: 1.6rem;
   }
   button.form-cadastro_input{
-    width: 100%;  
+    width: 100%;
     padding: .6rem;
   }
   

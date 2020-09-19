@@ -15,6 +15,7 @@ class ListaDeNotas extends Component {
                 texto={nota.texto}
                 apagarNota={this.props.apagarNota}
                 rodape={{ indice: index + 1, total: this.props.notas.length }}
+                categoria={nota.categoria}
               />
             </li>
           );
