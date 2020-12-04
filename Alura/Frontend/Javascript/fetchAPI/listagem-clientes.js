@@ -1,6 +1,7 @@
 const removeCliente = id => {
     if(confirm("Deseja realmente deletar o cliente?")){
         deletaCliente(id)
+        document.location.reload()
     }
 }
 const corpoTabela = document.querySelector("[data-conteudo-tabela]")
