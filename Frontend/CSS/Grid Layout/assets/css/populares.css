@@ -1,11 +1,13 @@
 .populares {
     padding: 3rem 0rem;
+    width: 100%;
 }
 
 .populares__conteudo {
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 0rem;
+    /* place-content: center; */
 }
 
 .populares__card {
@@ -15,9 +17,6 @@
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
-    grid-template-rows: 173px auto;
-    margin-right: 1rem;
-    width: calc(20% - 1rem);
 }
 
 .populares__card:last-child {
